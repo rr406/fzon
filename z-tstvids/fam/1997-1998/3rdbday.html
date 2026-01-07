@@ -4,8 +4,10 @@
     body { font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; 
            line-height: 1.5; color: var(--text); background: var(--bg); margin: 0; padding: 20px; }
     .container { max-width: 900px; margin: 0 auto; }
-    header { margin-bottom: 2rem; }
-    h1 { font-size: 1.875rem; color: #111827; margin-bottom: 0.5rem; }
+    header { margin-bottom: 2rem; position: relative; }
+    h1 { font-size: 1.875rem; color: #111827; margin-bottom: 0.5rem; margin-top: 1rem; }
+    .back-btn { display: inline-block; color: var(--primary); text-decoration: none; font-weight: 600; font-size: 0.9rem; margin-bottom: 10px; }
+    .back-btn:hover { text-decoration: underline; }
     .card-grid { display: grid; gap: 1rem; }
     .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; 
             padding: 20px; transition: transform 0.1s ease; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
@@ -16,8 +18,10 @@
     @media (max-width: 640px) { body { padding: 16px; } h1 { font-size: 1.5rem; } }
 </style>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>3Rdbday</title></head><body>
-<div class='container'><header><h1>3Rdbday</h1></header><div class='card-grid'>
+<title>Third Birthday</title></head><body>
+<div class='container'><header>
+<a href='index.html' class='back-btn'>&larr; Back</a>
+<h1>Third Birthday</h1></header><div class='card-grid'>
 <div class='card'><a class='link-text' href='https://www.youtube.com/watch?v=ZPfN9ofEe2M'>Cake and Fun - Part 1</a>
 <div class='desc'>Party at Beacontree with Pratik, Singhs, Raos, Padmesh, Shukti</div>
 </div>
